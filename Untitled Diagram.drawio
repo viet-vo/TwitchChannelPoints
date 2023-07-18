@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T07:02:51.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="wprDTjyBBw9ji0JjhS-5" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T07:24:34.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="ahsM2sP6c9KtwV0wNtZ9" version="21.6.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -9,6 +9,67 @@
         </mxCell>
         <mxCell id="7nkNnZ4ky-TnUs5iX7In-4" value="Twitch API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="125" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="55" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="80" as="sourcePoint" />
+            <mxPoint x="230" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-9" value="OAuth2 Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="340" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-14" value="Access Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-15" value="Backend Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-16" value="Oauth2 Web Interface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="70" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-17" value="Redirect page that will handle permission for app to handle user information" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="7nkNnZ4ky-TnUs5iX7In-16">
+          <mxGeometry y="40" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="120" as="sourcePoint" />
+            <mxPoint x="610" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-19" value="User Accepts Permission" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="240" />
+              <mxPoint x="390" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-22" value="Twitch Webhook for Events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="198" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="180" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nkNnZ4ky-TnUs5iX7In-25" value="Electron App" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=11;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="60" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
